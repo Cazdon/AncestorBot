@@ -1,0 +1,85 @@
+***Generic Affliction Lines***
+
+"The human mind - fragile like a robin's egg."
+
+"Wherefore, heroism?"
+
+"The mind cannot hope to withstand such an assault."
+
+"Even the aged oak will fall to the tempest's winds."
+
+"Madness, our old friend!"
+
+"One can sometimes find clarity in madness, but only rarely..."
+
+"Madness - sublimity of the intelligence, or so it has been said."
+
+"The bulwarks of the mind have fallen!"
+
+"The abyss is made manifest!"
+
+***Abusive***
+
+"Frustration and fury, more destructive than a hundred cannons."
+
+***Fearful***
+
+"Fear and frailty finally claim their due."
+
+***Paranoid***
+
+"The walls close in, the shadows whisper of conspiracy!"
+
+***Hopeless***
+
+"There can be no hope in this hell, no hope at all."
+
+***Selfish***
+
+"Self-preservation is paramount - at any cost!"
+
+***Masochistic***
+
+"Those who covet injury find it in no short supply."
+
+***Irrational***
+
+"Reeling, gasping, taken over the edge into madness!"
+
+
+--------------------------------------------------------
+Virtues
+
+***Courageous***
+
+"A moment of valor shines brightest against a backdrop of despair."
+
+***Vigorous***
+
+"Adversity can foster hope, and resilience."
+
+***Focused***
+
+"A moment of clarity in the eye of the storm..."
+
+***Powerful***
+
+"Anger is power - unleash it!"
+
+***Stalwart***
+
+"Many fall in the face of chaos; but not this one, not today."
+
+
+----------------------------------------------------------
+Chances
+
+Affliction: 75% Virture: 25%
+
+1/7 for each Affliction
+
+60% for the specific affliction line, 40% for generic.
+
+1/9 for each Generic line.
+
+1/5 for each virture.

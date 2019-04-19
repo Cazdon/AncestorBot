@@ -1,0 +1,75 @@
+Ancestor BOT
+
+A discord chat bot based on the Ancestor from Darkest Dungeon.
+
+vvvvvvCORE FUNCTIONALITYvvvvvv
+
+The Ancestor should appear online in Discord when it is running.
+
+The Ancestor should be able to receive user inputs via chat messages starting with <a!>.
+
+The Ancestor should have an <a!help> command that shows a list of all commands.
+
+The Ancestor should have a database of some kind that stores all the quotes from the game in text form.
+
+The Ancestor should have an <a!quote> command that pulls a random quote from the database and paste it in the chat where the command was called.
+
+The Ancestor should have an option to pass in an ID into <a!quote:IDHERE> which calls a specific quote from the database.
+
+The Ancestor should also display the ID of a quote when it is given.
+
+The Ancestor should have an <a!getids> which will cause it to upload a text file containing the IDs of each quote.
+
+If an invalid ID is passed, it should return this information to the user and not crash the BOT.
+
+^^^^^CORE FUNCTIONALITY^^^^^
+
+vvvvvEXTRA FUNCTIONALITYvvvvv
+
+The Ancestor should be able to store the actual audio files into its database. These files should consist of all of The Ancestors quotes.
+
+The Ancestor should have an <a!say> command that causes it to upload a random audio file from its database.
+
+The Ancestor should have an option to pass in an ID into <a!say:IDHERE> which calls a specific audio file from the database.
+
+The Ancestor should also display the ID of a file when it is uploaded.
+
+The ID of the audio files should match the ID of the respective quotes.
+
+The Ancestor should have a <a!resolve:NAME> command. This will cause the Ancestor bot to post the line "{NAME}'s resolve is tested...", wait for 
+5 seconds, and then post the 'result' detailed below.
+
+The 'result' is determinded by the actual Darkest Dungeon affliction or virtue chances, so it should be a 75% to be afflicted, and 25% chance to 
+be virtuous. And once that is determined, another random number is used to determine which affliction or virture. Finally, the returned result is 
+the name of the virtue/affliction is returned in ALL CAPS, and the Ancestor's line about said resolve test is also returned, in text only.
+
+^^^^^^EXTRA FUNCTIONALITY^^^^^^
+
+vvvvvvSUPER EXTRA FUNCTIONALITYvvvvvv
+
+The Ancestor should be able to join voice channels with an <a!join> command.
+
+The Ancestor should have an <a!voice> command that causes it to play an audio file from its database in the current voice chat.
+
+The Ancestor should have an option to pass in an ID into <a!voice:IDHERE> which calls a specific audio file to play.
+
+The IDs of the audio files are the same as the ones from <a!say> command.
+
+The Ancestor should return a minor error if you try to use <a!voice> when its not in a voice channel.
+
+^^^^^^SUPER EXTRA FUNCTIONALITY^^^^^^
+
+vvvvvvIF I'M CRAZY FUNCTIONALITYvvvvvv
+
+The Ancestor BOT should have his own website detailing his functionality and showing off his stuff.
+
+
+Maybe keep track of members 'stress levels' and auto roll at 200
+
+
+
+Actual functionality: Just take the 'extra' functionality and use that as the core functionality.
+
+
+
+WEB Api with random quotes - Make a database filled with the quotes.
