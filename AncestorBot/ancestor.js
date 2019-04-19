@@ -41,7 +41,10 @@ function processCommand(receivedMessage) {
 
     if (primaryCommand == "resolve") {
         resolveCommand(arguments, receivedMessage)
-    } else {
+    } else if (primaryCommand == "quote") {
+        
+    }
+     else {
         receivedMessage.channel.send("I don't understand the command. Try `a!resolve`")
     }
 }
@@ -110,7 +113,7 @@ function resolveCommand(arguments, receivedMessage) {
 }
 
 
-//Oh dear, this token is out in the open for all to see. Should probably do something about that.
-bot_secret_token = "NTUyMTIzODQ5NDg4MDcyNzE0.D36JVw.oDEfaY29wIE6VYQUyrOkG8_n3Jw"
+
+bot_secret_token = "YourBotTokenHere"
 
 client.login(bot_secret_token)
